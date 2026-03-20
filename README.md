@@ -8,15 +8,15 @@ Pour des raisons de taille, le dataset de ce projet n'est pas hébergé sur GitH
 
 1. Téléchargez le dataset `modelnet40_ply_hdf5_2048.zip` depuis ce lien Google Drive : 
    **[Dataset](https://drive.google.com/file/d/15WuKKi88efXV0wFLA2XB-CcHBL5X4BUK/view?usp=sharing)**
-2. À la racine du projet, créez un dossier nommé `data` (s'il n'existe pas déjà).
-3. Placez l'archive `.zip` dans ce dossier et extrayez son contenu.
+2. À la racine du projet, créez un dossier nommé `data`.
+3. Placez l'archive `.zip` dans ce dossier.
 
-Une fois l'extraction terminée, l'arborescence de votre projet doit ressembler à ceci :
+l'arborescence de votre projet doit ressembler à ceci :
 
 ```text
 NPM3D_GCNN/
 ├── data/
-│   └── modelnet40_ply_hdf5_2048/
+│   └── modelnet40_ply_hdf5_2048.zip
 ├── DGCNN.ipynb 
 └── README.md
 ```
